@@ -73,3 +73,7 @@ height: 5vh;
     color: #fff;
     text-align: center;
 }
+
+iframe{
+	height: 450px;
+}
