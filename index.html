@@ -15,7 +15,7 @@
   <body>
 
   <header>
-    <div class ="topBar darkBlue">
+    <div class ="topBar darkBlue d-none d-sm-block">
 	    <div class="container">
         <div class="row">
           <div class="col-sm-12">
@@ -34,8 +34,9 @@
   
   
   <div class="mainNav">
-    <div class="container">
-      <nav class="navbar navbar-expand-lg navbar-light">
+    
+      <nav class="navbar navbar-expand-lg navbar-light navbar-fixed-top">
+          <div class="container">
         <a class="navbar-brand" href="#">
         <div class="float-left">
               <h1 class="display-2">&sect</h1>
@@ -69,8 +70,9 @@
           </ul>
           
         </div>
+      </div>
       </nav>
-    </div>
+    
   </div>
 </header>
 
@@ -262,10 +264,10 @@
     <div class="row">
       
       <div class="col-sm-8">
-        <h2>Kancelaria Radcy Prawnego</h2>
+        <h3>Kancelaria Radcy Prawnego</h3>
         <h3>Beata Kowalska</h3>
-        <h4>ul. Długa 2/2</h4>
-        <h4>00-000 Skierniewice</h4>
+        <h5>ul. Długa 2/2</h5>
+        <h5>00-000 Skierniewice</h5>
         <div>
           	<span>
                 <i class="fa fa-phone-square fa-2x gold"></i>+48 500 000 000
@@ -296,7 +298,32 @@
 </div>
 
 </main>
-
+<footer>
+  <div class="container text-secondary">
+    <div class="row">
+      <div class="col-sm-8 ">
+          <div class="float-left">
+              <h1 class="display-4">&sect</h1>
+            </div>
+            <div class="float-left">
+        <h6>Kancelaria Radcy Prawnego</h6>
+        Beata Kowalska<br/>
+        ul. Długa 2/2, 00-000 Skierniewice
+      </div>
+      </div>
+      <div class="col-sm-4">
+        <p class="float-right">
+          <span>
+            <i class="fa fa-phone-square gold"></i>+48 500 000 000
+          </span>
+          <span>
+            <i class="fa fa-envelope gold"></i>email@gmail.com
+          </span>
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
