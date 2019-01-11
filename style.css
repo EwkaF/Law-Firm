@@ -1,8 +1,11 @@
 html, body{
+	margin:0;
+	Padding: 0;
 	line-height: 200%;
 	height: 100vh;
 	font-family: Roboto,sans-serif;
 	font-size:17px;
+	padding-top:100px;
 }
 .gold{
 	color: #AEA373;
@@ -13,7 +16,10 @@ html, body{
 .topBar{
 color:#a6b1b7;
 background-color:#213945;
-height: 5vh;
+/* height: 5vh; */
+}
+nav{
+	background: #fff;
 }
 .custom-toggler.navbar-toggler {
     border-color: rgb(174, 163, 115);
@@ -21,7 +27,9 @@ height: 5vh;
 .custom-toggler .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(174,163,115, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
-
+/* nav{
+	margin-top: 60px;
+} */
 .mainNav h1{
 	color: #AEA373;
 	font-weight: 600;
