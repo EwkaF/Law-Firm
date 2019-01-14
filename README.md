@@ -1,5 +1,5 @@
 # Law-Firm
-One-page RWD website projected for Law Firm
+One-page RWD website projected for Law Firm:  https://ewkaf.github.io/Law-Firm/
 
 ## Technolgies
 * Bootstrap4
@@ -8,6 +8,7 @@ One-page RWD website projected for Law Firm
 
 ## Features
 * collapsible navbar
+* fixed menu
 * carousel
 * card deck
 
