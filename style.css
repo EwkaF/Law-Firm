@@ -93,3 +93,10 @@ iframe{
 footer{
 	line-height: 150%;
 }
+
+.vertical-align {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+  }
